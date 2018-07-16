@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: gray;
+    padding: 1rem;
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+  }
+  
+  .calculator {
+    background-color: white;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px black;
+  }
+  
+  .controls {
+    padding: 1.5rem;
+  }
+  
+  label, input[type="text"] {
+    display: block;
+    width: 100%;
+  }
+
+  #pay, #hours, #days {
+    border: 1px solid #505050;
+    font-size: 20px;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+    color: purple;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    border: none;
+    margin-bottom: 1rem;
+    text-align: right;
+  }
+
+  .student-label {
+    font-weight: bold;
+    color: purple;
+    margin-right: 2rem;
+  }
+  
+  input[type="radio"] {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: bottom;
+  }
+  
+  button {
+    width: 100%;
+    height: 3rem;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:blue;
+    border: none;
+    outline: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  button:hover {
+    background-color: red;
+    transition: 400ms;
+  }
+  
+  .result {
+    font-size: 200%;
+    text-align: center;
+    padding: 2rem;
+  }
